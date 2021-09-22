@@ -1,0 +1,35 @@
+
+<!-- <div class="container">
+    <h1>Angular tutorial</h1>
+    <button (click) ="handleEvent()">click me</button>
+    
+</div>
+<div class="container mt-4">
+    <input placeholder="key down" [(ngModel)] = 'title'><br>
+    <b>{{title}}</b>
+</div>
+<section>
+    <div class="container">
+    <button on-click = "onShow($event)">Show</button>
+    </div>
+    <div>
+        <input type="text">
+    </div>
+</section> -->
+<div class="container">
+    <nav>
+        <a routerLink="/dashboard">Dashboard</a><br>
+        <a routerLink = "/heroes">heroes</a>
+    </nav>
+    <router-outlet></router-outlet>
+    <!-- <app-heroes></app-heroes> -->
+    <app-messages></app-messages>
+    
+</div>
+
+<dx-button text = "Sample button"> </dx-button>
+
+<!-- <dx-tree-map>
+    <dxo-tooltip [enabled]="true"
+    format = "thousand"></dxo-tooltip>
+</dx-tree-map> -->
